@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4b1728">
+  <meta name="description" content="Undangan pernikahan Yana Nur Muhammad dan Nurul Qomariyah, 21 April 2027.">
+  <title>Yana & Nurul — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cover" id="cover">
+    <div class="cover-shade"></div>
+    <div class="cover-content">
+      <p class="eyebrow">THE WEDDING OF</p>
+      <h1>Yana <span>&</span> Nurul</h1>
+      <div class="ornament">✦　❦　✦</div>
+      <p class="cover-date">RABU, 21 APRIL 2027</p>
+      <p class="cover-to">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+      <button class="btn btn-gold" id="openInvitation">Buka Undangan <span>↗</span></button>
+    </div>
+    <p class="cover-bottom">Dengan memohon rahmat dan ridho Allah SWT</p>
+  </div>
+
+  <audio id="weddingAudio" loop preload="none">
+    <source src="music/musik.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-toggle" id="musicToggle" aria-label="Putar atau jeda musik" hidden>♫</button>
+
+  <main id="mainContent" class="is-locked">
+    <section class="hero section" id="home">
+      <div class="hero-photo"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-inner reveal">
+        <p class="eyebrow">WALIMATUL 'URSY</p>
+        <h2>Yana <span>&</span><br>Nurul</h2>
+        <p class="hero-sub">Rabu, 21 April 2027</p>
+        <div class="ornament">✦　❦　✦</div>
+        <p class="hero-quote">“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup...”</p>
+        <p class="verse">QS. Ar-Rum: 21</p>
+        <a class="btn btn-outline" href="#couple">Lihat Undangan</a>
+      </div>
+    </section>
+
+    <section class="intro section paper">
+      <div class="section-inner narrow reveal">
+        <p class="eyebrow wine">BISMILLAHIRRAHMANIRRAHIM</p>
+        <h2 class="section-title">Assalamu’alaikum<br><em>Warahmatullahi Wabarakatuh</em></h2>
+        <div class="ornament wine-ornament">✦　❦　✦</div>
+        <p>Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan acara pernikahan putra-putri kami. Merupakan kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+      </div>
+    </section>
+
+    <section class="couple section" id="couple">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow wine">DUA HATI, SATU TUJUAN</p>
+          <h2 class="section-title">Mempelai</h2>
+          <div class="ornament wine-ornament">✦　❦　✦</div>
+        </div>
+        <div class="couple-grid">
+          <article class="person-card reveal">
+            <div class="portrait-frame"><img src="https://lh3.googleusercontent.com/d/1Lma2phg_7gnWJFStCqIcO58-DTUToJ_z" alt="Foto Yana Nur Muhammad" loading="lazy"></div>
+            <p class="person-role">MEMPELAI PRIA</p>
+            <h3>Yana Nur Muhammad, S.E.</h3>
+          </article>
+          <div class="ampersand reveal">&</div>
+          <article class="person-card reveal">
+            <div class="portrait-frame"><img src="https://lh3.googleusercontent.com/d/15kFpwVVRka71wumXbD3ItSRviz15rr--" alt="Foto Nurul Qomariyah" loading="lazy"></div>
+            <p class="person-role">MEMPELAI WANITA</p>
+            <h3>Nurul Qomariyah, S.Pd.I.</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="event section paper" id="event">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow wine">SAVE THE DATE</p>
+          <h2 class="section-title">Menuju Hari Bahagia</h2>
+          <p class="muted">Rabu, 21 April 2027</p>
+        </div>
+        <div class="countdown reveal" aria-label="Hitung mundur menuju pernikahan">
+          <div><strong id="days">000</strong><span>Hari</span></div>
+          <div><strong id="hours">00</strong><span>Jam</span></div>
+          <div><strong id="minutes">00</strong><span>Menit</span></div>
+          <div><strong id="seconds">00</strong><span>Detik</span></div>
+        </div>
+        <div class="event-grid">
+          <article class="event-card reveal">
+            <span class="event-icon">❦</span>
+            <p class="eyebrow wine">ACARA PERTAMA</p>
+            <h3>Akad Nikah</h3>
+            <p class="event-date">Rabu, 21 April 2027</p>
+            <p><b>08.00 – 10.00 WIB</b></p>
+            <p>Masjid Jami Al-Hidayah</p>
+          </article>
+          <article class="event-card reveal">
+            <span class="event-icon">❦</span>
+            <p class="eyebrow wine">ACARA KEDUA</p>
+            <h3>Resepsi</h3>
+            <p class="event-date">Rabu, 21 April 2027</p>
+            <p><b>10.00 WIB – selesai</b></p>
+            <p>Tempat mempelai wanita<br>Kp. Wangun Jaya, RT.01 RW.07</p>
+          </article>
+        </div>
+        <div class="map-actions reveal">
+          <a class="btn btn-wine" href="https://share.google/xZgH8JgdBP92ilQyd" target="_blank" rel="noopener">Petunjuk Lokasi ↗</a>
+        </div>
+        <p class="map-note">Silakan tekan tombol untuk membuka lokasi melalui Google Maps.</p>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow wine">MOMENTS</p>
+          <h2 class="section-title">Galeri Bahagia</h2>
+          <div class="ornament wine-ornament">✦　❦　✦</div>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item reveal" data-full="https://lh3.googleusercontent.com/d/1vRK3_D5-dQqZKB_y1QIsDny6QaIcG2ey"><img src="https://lh3.googleusercontent.com/d/1vRK3_D5-dQqZKB_y1QIsDny6QaIcG2ey" alt="Momen pasangan 1" loading="lazy"></button>
+          <button class="gallery-item reveal" data-full="https://lh3.googleusercontent.com/d/1HMJTqGq2Tgv1dvRJqz5iDJF4FGphbk84"><img src="https://lh3.googleusercontent.com/d/1HMJTqGq2Tgv1dvRJqz5iDJF4FGphbk84" alt="Momen pasangan 2" loading="lazy"></button>
+          <button class="gallery-item reveal" data-full="https://lh3.googleusercontent.com/d/1rC3DPTqzy2EcxOoL651DFR2pXO2dkh1p"><img src="https://lh3.googleusercontent.com/d/1rC3DPTqzy2EcxOoL651DFR2pXO2dkh1p" alt="Momen pasangan 3" loading="lazy"></button>
+          <button class="gallery-item reveal" data-full="https://lh3.googleusercontent.com/d/129zQG6w8awQBvHT6sXcoE2rw6u6Zc0-1"><img src="https://lh3.googleusercontent.com/d/129zQG6w8awQBvHT6sXcoE2rw6u6Zc0-1" alt="Momen pasangan 4" loading="lazy"></button>
+          <button class="gallery-item reveal" data-full="https://lh3.googleusercontent.com/d/1tqgDcIsE72b1VUW0uiNKYBPKOZRuWY73"><img src="https://lh3.googleusercontent.com/d/1tqgDcIsE72b1VUW0uiNKYBPKOZRuWY73" alt="Momen pasangan 5" loading="lazy"></button>
+          <button class="gallery-item reveal" data-full="https://lh3.googleusercontent.com/d/1MctULEaqWLo3cvh2QfWAlQQmTSBuCnFL"><img src="https://lh3.googleusercontent.com/d/1MctULEaqWLo3cvh2QfWAlQQmTSBuCnFL" alt="Momen pasangan 6" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="gift section paper" id="gift">
+      <div class="section-inner narrow reveal">
+        <p class="eyebrow wine">TANDA KASIH</p>
+        <h2 class="section-title">Wedding Gift</h2>
+        <div class="ornament wine-ornament">✦　❦　✦</div>
+        <p>Doa restu Anda merupakan hadiah terindah bagi kami. Namun apabila ingin berbagi tanda kasih, dapat melalui rekening berikut:</p>
+        <div class="bank-card">
+          <div class="bank-top"><span class="bank-logo">BCA</span><span>TRANSFER BANK</span></div>
+          <p class="account-number" id="accountNumber">4584875888</p>
+          <p class="account-name">A/N YANA NM</p>
+          <button class="btn btn-wine" id="copyAccount">Salin Nomor Rekening</button>
+          <small id="copyFeedback" aria-live="polite"></small>
+        </div>
+      </div>
+    </section>
+
+    <section class="rsvp section" id="rsvp">
+      <div class="section-inner narrow reveal">
+        <p class="eyebrow wine">KONFIRMASI KEHADIRAN</p>
+        <h2 class="section-title">RSVP</h2>
+        <p class="muted">Mohon bantu kami mempersiapkan acara dengan mengisi konfirmasi berikut.</p>
+        <form id="rsvpForm" class="guest-form">
+          <label>Nama lengkap<input type="text" id="guestName" placeholder="Nama Anda" required maxlength="80"></label>
+          <label>Jumlah tamu
+            <select id="guestCount"><option value="1">1 orang</option><option value="2">2 orang</option><option value="3">3 orang</option><option value="4">4 orang</option><option value="5">5 orang</option></select>
+          </label>
+          <label>Status kehadiran
+            <select id="attendance"><option value="Hadir">Hadir</option><option value="Tidak Hadir">Tidak Hadir</option></select>
+          </label>
+          <button class="btn btn-wine" type="submit">Kirim Konfirmasi</button>
+          <p class="form-feedback" id="rsvpFeedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="wishes section paper" id="wishes">
+      <div class="section-inner narrow reveal">
+        <p class="eyebrow wine">DOA & UCAPAN</p>
+        <h2 class="section-title">Kirimkan Doa Restu</h2>
+        <p class="opening-words">“merupakan kehormatan bagi kami apabila bapak/ibu saudara/i berkenan hadir dalam acara pernikahan kami”</p>
+        <form id="wishForm" class="guest-form">
+          <label>Nama<input type="text" id="wishName" placeholder="Nama Anda" required maxlength="80"></label>
+          <label>Ucapan dan doa<textarea id="wishMessage" placeholder="Tuliskan doa dan ucapan terbaik..." required maxlength="500" rows="4"></textarea></label>
+          <button class="btn btn-wine" type="submit">Kirim Ucapan</button>
+          <p class="form-feedback" id="wishFeedback" aria-live="polite"></p>
+        </form>
+        <div class="wish-list" id="wishList" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <footer class="footer section">
+      <div class="section-inner reveal">
+        <p class="eyebrow">TERIMA KASIH</p>
+        <h2>Yana <span>&</span> Nurul</h2>
+        <p>Merupakan suatu kebahagiaan dan kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+        <div class="ornament">✦　❦　✦</div>
+        <p class="footer-small">Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
+        <small>© 2027 Yana & Nurul</small>
+      </div>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau foto">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Tutup">×</button>
+    <img id="lightboxImage" alt="Foto galeri ukuran besar">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
